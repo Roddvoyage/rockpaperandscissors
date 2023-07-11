@@ -1,4 +1,15 @@
+@font-face {
+    font-family: caviar dreams;
+    src:url(CaviarDreams.ttf);
 
+}
+
+
+@font-face {
+    font-family: caviar dreams bold;
+    src:url(CaviarDreams_Bold.ttf);
+
+}
 
 #container{
     display: flex;
@@ -42,5 +53,31 @@
    padding: 5px;
    padding-right: 20px;
    padding-left: 20px;
+   font-family: caviar dreams bold;
 }
+
+#play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: caviar dreams;
+    margin: 50px;
+}
+
+#container h1{
+    font-family: caviar dreams;
+    margin: 50px;
+}
+
+.weapon{
+    font-family: caviar dreams;
+    font-size:12px;
+}
+
+#whowon {
+    font-family: caviar dreams bold;
+    font-size:16px;
+}
+
 
