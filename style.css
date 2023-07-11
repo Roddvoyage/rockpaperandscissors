@@ -1,0 +1,46 @@
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.weapon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.weaponImg{
+    height: 200px;
+    width: 200px;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-direction: row;
+    width: 600px;
+}
+
+.scores p{
+   background-color: red;
+   color: white;
+   padding: 5px;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
