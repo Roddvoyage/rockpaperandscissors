@@ -90,7 +90,7 @@ function playRock(){
         ComputerScore++;
         UPC.textContent = ComputerScore;
         bothplays.innerHTML = 'you chose rock and upc chose scissors';
-        whowon.innerHTML = 'upc win...'
+        whowon.innerHTML = 'upc won...'
     } 
 }
 
@@ -111,7 +111,7 @@ function playPaper(){
         ComputerScore++;
         UPC.textContent = ComputerScore;
         bothplays.innerHTML = 'you chose paper and upc chose scissors';
-        whowon.innerHTML = 'upc win...'
+        whowon.innerHTML = 'upc won...'
     } 
 }
 
@@ -132,7 +132,7 @@ function playScissors(){
         ComputerScore++;
         UPC.textContent = ComputerScore;
         bothplays.innerHTML = 'you chose scissors and upc chose rock';
-        whowon.innerHTML = 'upc win...'
+        whowon.innerHTML = 'upc won...'
     } 
 }
 
