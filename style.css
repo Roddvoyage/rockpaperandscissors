@@ -97,4 +97,28 @@
 }
 
 
+#scoresPlayer {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
 
+#scoresPlayer #Player {
+    color: black;
+    background-color: white;
+    }
+
+    #scoresUPC {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+    
+    #scoresUPC #UPC {
+    color: black;
+    background-color: white;
+    }
+    
+    
