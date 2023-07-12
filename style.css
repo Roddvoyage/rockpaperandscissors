@@ -11,6 +11,20 @@
 
 }
 
+@font-face {
+    font-family: CabinSketch-Regular;
+    src:url(CabinSketch-Regular.ttf);
+
+}
+
+
+@font-face {
+    font-family: CabinSketch-Bold;
+    src:url(CabinSketch-Bold.ttf);
+
+}
+
+
 #container{
     display: flex;
     justify-content: center;
@@ -32,6 +46,7 @@
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: CabinSketch-Regular;
 }
 
 .weaponImg{
@@ -48,7 +63,7 @@
 }
 
 .scores p{
-   background-color: red;
+   background-color: #312a6f;
    color: white;
    padding: 5px;
    padding-right: 20px;
@@ -66,12 +81,12 @@
 }
 
 #container h1{
-    font-family: caviar dreams;
+    font-family: CabinSketch-Bold;
     margin: 50px;
 }
 
 .weapon{
-    font-family: caviar dreams;
+    font-family: CabinSketch-Bold;
     font-size:12px;
 }
 
